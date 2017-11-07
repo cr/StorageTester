@@ -1,0 +1,35 @@
+{
+
+  "manifest_version": 2,
+  "name": "StorageTester",
+  "description": "Testing web extension storage behavior",
+  "version": "0.1a1",
+  "default_locale": "en",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "52.0"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "permissions": [
+    "menus",
+	"storage"
+  ],
+  
+  "icons": {
+    "16": "icons/page-16.png",
+    "32": "icons/page-32.png",
+    "48": "icons/page-48.png"
+  },
+
+  "sidebar_action": {
+    "default_icon": "icons/page-32.png",
+    "default_title" : "Storage Tester",
+    "default_panel": "sidebar/sidebar.html"
+  }
+
+}

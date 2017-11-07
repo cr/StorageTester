@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="sidebar.css"/>
+    </head>
+    <body>
+        <div>
+            <button type="button" id="refreshbutton">Refresh</button>
+        </div>
+
+        <div id="storagelocal">
+            <h1>browser.storage.local</h1>
+            <button type="button" id="storagelocaladdbutton">Add</button>
+            <button type="button" id="storagelocalclearbutton">Clear</button>
+            <ul id="storagelocallist"></ul>
+        </div>
+
+        <div id="storagesync">
+            <h1>browser.storage.sync</h1>
+            <button type="button" id="storagesyncaddbutton">Add</button>
+            <button type="button" id="storagesyncclearbutton">Clear</button>
+            <ul id="storagesynclist"></ul>
+        </div>
+
+        <div id="localstorage">
+            <h1>window.localStorage</h1>
+            <button type="button" id="localstorageaddbutton">Add</button>
+            <button type="button" id="localstorageclearbutton">Clear</button>
+            <ul id="localstoragelist"></ul>
+        </div>
+
+        <div id="sessionstorage">
+            <h1>window.sessionStorage</h1>
+            <button type="button" id="sessionstorageaddbutton">Add</button>
+            <button type="button" id="sessionstorageclearbutton">Clear</button>
+            <ul id="sessionstoragelist"></ul>
+        </div>
+
+        <div id="indexeddb">
+            <h1>window.indexeddb</h1>
+            <button type="button" id="indexeddbaddbutton">Add</button>
+            <button type="button" id="indexeddbclearbutton">Clear</button>
+            <ul id="indexeddblist"></ul>
+        </div>
+
+        <!--<div id="cookies">-->
+            <!--<h1>window.cookies</h1>-->
+            <!--<button type="button" id="cookiesaddbutton">Add</button>-->
+            <!--<button type="button" id="cookiesclearbutton">Clear</button>-->
+            <!--<ul id="cookieslist"></ul>-->
+        <!--</div>-->
+
+        <script type="text/javascript" src="sidebar.js" charset="utf-8"></script>
+    </body>
+</html>
